@@ -5,10 +5,11 @@
     text-decoration: none;
     object-fit: cover;
 }
+
+/****************Navigation Bar*************************/
 nav{
     position: relative;
     top: 45px;
-    right: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,9 +29,6 @@ nav ul{
     justify-content: center;
     align-items: center;
     gap: 29px;
-}
-nav ul li{
-
 }
 nav ul li a{
     font-style: Regular;
@@ -79,13 +77,14 @@ nav .btns .btn-signup a{
     line-height: 24px;
     color: #FFFFFF;
 }
+/****************Navigation Bar End*************************/
 
+
+/****************Header Section*************************/
 .header{
     width: 1300px;
     height: 500px;
-    position: relative;
-    top: 128px;
-    left: 150px;
+    margin: 60px 150px 20px 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,16 +132,19 @@ nav .btns .btn-signup a{
     color: #d19a48;
     text-decoration:underline;
 }
+/****************Header Section End*************************/
+
+
+/****************Features Section*************************/
 .features{
     width: 1300px;
     height: 600px;
-    position: relative;
-    top: 110px;
-    left: 150px;
+    margin: 20px 150px 20px 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 .features h2{
     width: 539px;
@@ -153,8 +155,37 @@ nav .btns .btn-signup a{
     text-align: center;
 }
 .features .services{
-    position: relative;
-    top: 54px;
+    width: 1095px;
+    height: 204px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.features .services .card{
+    width: 240px;
+    height: 178px;
+}
+.features .services .card .icon{
+    padding-bottom: 10px;
+    width: 50px;
+    height: 50px;
+}
+.features .services .card h6{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+}
+.features .services .card p{
+    width: 240px;
+    height: 52px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color:#544837;
 }
 .features button{
     background-color: #FF9900;
@@ -173,31 +204,238 @@ nav .btns .btn-signup a{
     cursor: pointer;
     background-color: #d19a48;
 }
+/****************Features Section End*************************/
+
+
+/*******************Efforts Section*************************/
 .efforts{
+    margin: 20px 150px 20px 150px;
     width: 1300px;
     height: 574px;
-    position: relative;
-    top: 120px;
-    left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
 }
+.efforts .effort-text{
+    width: 510px;
+    height: 531px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.efforts .effort-text h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+}
+.efforts .effort-text h6{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+}
+.efforts .effort-text p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;
+}
+.efforts .effort-img{
+    width: 520px;
+    height: 574px;
+}
+/*******************Efforts Section End*************************/
+
+
+/*******************Product Section*************************/
 .product{
     width: 1300px;
     height: 521px;
-    position: relative;
-    left: 150px;
-    top: 100px;
+    margin: 0 150px 20px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
-.market{
+.product .product-img{
+    width: 535px;
+    height: 521px;
+}
+.product .product-text{
+    width: 468px;
+    height: 427px;
+}
+.product .product-text h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+}
+.product .product-text p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;
+}
+.product .product-text .point-box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+.product .product-text .point-box .tick-icon{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+/*******************Product Section End*************************/
+
+
+/*******************Marketers Section*************************/
+.marketers{
+    margin: 0 150px 146px 150px;
     width: 1300px;
     height: 610px;
-    position: relative;
-    left: 150px;
-    top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 82px;
 }
-footer{
+.marketers .marketers-text{
+    width: 510px;
+    height: 531px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.marketers .marketers-text h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+}
+.marketers .marketers-text h6{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+}
+.marketers .marketers-text p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;
+}
+.marketers .marketers-img{
+    width: 542px;
+    height: 610px;
+}
+/*******************Marketers Section End*************************/
+
+
+/*******************Horizontal Line******************************/
+.line{
     width: 1300px;
-    height: 310px;
-    position: relative;
+    height: 1px;
+    border-width: 0;
+    background: rgba(188, 208, 229, 0.5);
+    position: absolute;
     left: 150px;
-    top: 130px;
 }
+/*******************Horizontal Line End*************************/
+
+
+/*********************Footer Section***************************/
+footer{
+    margin: 0 150px 83px 150px;
+    width: 1300px;
+    height: 310px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+/**********Footer Logo************/
+footer .footer-logo{
+    width: 185px;
+    height: 32px;
+    align-self:center;
+}
+/**********Footer Logo End************/
+
+/**********Quick Links************/
+footer .quick-links{
+    width: 118px;
+    height: 150px;
+    align-self: flex-end;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li a{          /**For both Quick Links and Legal stuff anchor tags**/
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #544837;
+}
+footer ul li a:hover{   /**hover effect both Quick Links and Legal stuff anchor tags**/
+    color: gray;
+    text-decoration: underline;
+}
+/**********Quick Links End************/
+
+/**********Legal Stuff************/
+footer .legal-stuff{
+    width: 150px;
+    height: 150px;
+    align-self: flex-end;
+}
+/**********Legal Stuff End************/
+
+/**********User Sign Up************/
+footer .user-signup{
+    width: 325px;
+    height: 199px;
+    position: relative;
+    top: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 22px;
+}
+footer .user-signup .footer-btn{
+    width: 140px;
+    height: 40px;
+    background-color: #FF9900;
+    border-radius: 4px;
+    border-style: none;
+}
+footer .user-signup .footer-btn:hover{
+    background-color: #d19a48;
+}
+footer .user-signup .footer-btn a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+footer .user-signup form #email{
+    width: 322px;
+    height: 48px;
+}
+/**********User Sign Up End************/
+
+/*********************Footer Section End***************************/
